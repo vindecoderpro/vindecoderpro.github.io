@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    
+    <!-- Main Page -->
+    <url>
+        <loc>https://vindecoderpro.github.io/</loc>
+        <lastmod>2025-11-28</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Finland Package -->
+    <url>
+        <loc>https://github.com/vindecoderpro/carvertical-kuponki-ja-alennuskoodi</loc>
+        <lastmod>2025-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Netherlands Package -->
+    <url>
+        <loc>https://github.com/vindecoderpro/carvertical-kortings-code</loc>
+        <lastmod>2025-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Spain Package -->
+    <url>
+        <loc>https://github.com/vindecoderpro/cupon-descuento-carvertical</loc>
+        <lastmod>2025-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Portugal Package -->
+    <url>
+        <loc>https://github.com/vindecoderpro/desconto-carvertical</loc>
+        <lastmod>2025-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Serbia Package -->
+    <url>
+        <loc>https://github.com/vindecoderpro/carvertical-promo-kod-30-za-popust</loc>
+        <lastmod>2025-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Greece Package -->
+    <url>
+        <loc>https://github.com/vindecoderpro/carvertical-coupons-and-promo-codes</loc>
+        <lastmod>2025-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Romania Package -->
+    <url>
+        <loc>https://github.com/vindecoderpro/cod-reducere-carvertical</loc>
+        <lastmod>2025-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- France Package -->
+    <url>
+        <loc>https://github.com/vindecoderpro/code-promo-carvertical</loc>
+        <lastmod>2025-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- International Package -->
+    <url>
+        <loc>https://github.com/vindecoderpro/carvertical-coupon-discount-code</loc>
+        <lastmod>2025-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Czech Republic Package -->
+    <url>
+        <loc>https://github.com/vindecoderpro/carvertical-slevove-kody</loc>
+        <lastmod>2025-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Lithuania Package -->
+    <url>
+        <loc>https://github.com/vindecoderpro/carvertical-kupono-kodas</loc>
+        <lastmod>2025-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Poland Package -->
+    <url>
+        <loc>https://github.com/vindecoderpro/carvertical-kod-rabatowy</loc>
+        <lastmod>2025-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+</urlset>
+
