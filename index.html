@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIN Decoder Pro - carVertical Discount Codes Collection</title>
-    <meta name="description" content="Open-source NPM packages with carVertical discount codes for multiple countries. Created by VIN Decoder Pro team.">
+    <title>VinDecoderPro - carVertical Discount Codes Collection</title>
+    <meta name="description" content="Open-source NPM packages with carVertical discount codes for multiple countries. Created by VinDecoderPro team.">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚗</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -153,10 +153,64 @@
             word-break: break-all;
         }
 
+        .discount-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 15px 0;
+            padding: 12px;
+            background: #f0f9ff;
+            border-radius: 8px;
+            border: 2px dashed #1688F8;
+        }
+
+        .discount-code {
+            font-family: 'Courier New', monospace;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #02214c;
+        }
+
+        .discount-percentage {
+            background: #1688F8;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+
+        .copy-button {
+            width: 100%;
+            padding: 12px;
+            background: #1688F8;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.1s;
+            margin-bottom: 10px;
+        }
+
+        .copy-button:hover {
+            background: #0d6ecc;
+            transform: translateY(-1px);
+        }
+
+        .copy-button:active {
+            transform: translateY(0);
+        }
+
+        .copy-button.copied {
+            background: #10b981;
+        }
+
         .links {
             display: flex;
             gap: 10px;
-            margin-top: 15px;
+            margin-top: 10px;
         }
 
         .link-button {
@@ -214,9 +268,9 @@
 <body>
     <header>
         <div class="logo">🚗</div>
-        <h1>VIN Decoder Pro</h1>
+        <h1>VinDecoderPro</h1>
         <p class="subtitle">Open-source NPM packages with carVertical discount codes for multiple countries.</p>
-        <a href="https://vindecoderpro.com/" class="cta-button">Visit vindecoderpro.com</a>
+        <a href="https://vindecoderpro.com/" class="cta-button">Visit VinDecoderPro.com</a>
         
         <div class="stats">
             <div class="stat">
@@ -241,6 +295,11 @@
                 <div class="country-name">🇫🇮 Finland</div>
                 <div class="package-name">carvertical-kuponki-ja-alennuskoodi</div>
                 <div class="category">VIN Decoder</div>
+                <div class="discount-info">
+                    <div class="discount-code">AUTONHISTORIA</div>
+                    <div class="discount-percentage">20%</div>
+                </div>
+                <button class="copy-button" onclick="copyCode('AUTONHISTORIA', this)">Copy Code</button>
                 <div class="install-command">npm i carvertical-kuponki-ja-alennuskoodi</div>
                 <div class="links">
                     <a href="https://github.com/vindecoderpro/carvertical-kuponki-ja-alennuskoodi" class="link-button github-link" target="_blank">GitHub</a>
@@ -253,6 +312,11 @@
                 <div class="country-name">🇳🇱 Netherlands</div>
                 <div class="package-name">carvertical-kortings-code</div>
                 <div class="category">VIN Decoder</div>
+                <div class="discount-info">
+                    <div class="discount-code">GET20</div>
+                    <div class="discount-percentage">20%</div>
+                </div>
+                <button class="copy-button" onclick="copyCode('GET20', this)">Copy Code</button>
                 <div class="install-command">npm i carvertical-kortings-code</div>
                 <div class="links">
                     <a href="https://github.com/vindecoderpro/carvertical-kortings-code" class="link-button github-link" target="_blank">GitHub</a>
@@ -265,6 +329,11 @@
                 <div class="country-name">🇪🇸 Spain</div>
                 <div class="package-name">cupon-descuento-carvertical</div>
                 <div class="category">VIN Decoder</div>
+                <div class="discount-info">
+                    <div class="discount-code">CONSULTARVEHICULO</div>
+                    <div class="discount-percentage">20%</div>
+                </div>
+                <button class="copy-button" onclick="copyCode('CONSULTARVEHICULO', this)">Copy Code</button>
                 <div class="install-command">npm i cupon-descuento-carvertical</div>
                 <div class="links">
                     <a href="https://github.com/vindecoderpro/cupon-descuento-carvertical" class="link-button github-link" target="_blank">GitHub</a>
@@ -277,6 +346,11 @@
                 <div class="country-name">🇵🇹 Portugal</div>
                 <div class="package-name">desconto-carvertical</div>
                 <div class="category">VIN Decoder</div>
+                <div class="discount-info">
+                    <div class="discount-code">HISTORICOCARRO</div>
+                    <div class="discount-percentage">20%</div>
+                </div>
+                <button class="copy-button" onclick="copyCode('HISTORICOCARRO', this)">Copy Code</button>
                 <div class="install-command">npm i desconto-carvertical</div>
                 <div class="links">
                     <a href="https://github.com/vindecoderpro/desconto-carvertical" class="link-button github-link" target="_blank">GitHub</a>
@@ -289,6 +363,11 @@
                 <div class="country-name">🇷🇸 Serbia</div>
                 <div class="package-name">carvertical-promo-kod-30-za-popust</div>
                 <div class="category">VIN Decoder</div>
+                <div class="discount-info">
+                    <div class="discount-code">VOZILA</div>
+                    <div class="discount-percentage">30%</div>
+                </div>
+                <button class="copy-button" onclick="copyCode('VOZILA', this)">Copy Code</button>
                 <div class="install-command">npm i carvertical-promo-kod-30-za-popust</div>
                 <div class="links">
                     <a href="https://github.com/vindecoderpro/carvertical-promo-kod-30-za-popust" class="link-button github-link" target="_blank">GitHub</a>
@@ -301,6 +380,11 @@
                 <div class="country-name">🇬🇷 Greece</div>
                 <div class="package-name">carvertical-coupons-and-promo-codes</div>
                 <div class="category">VIN Decoder</div>
+                <div class="discount-info">
+                    <div class="discount-code">CARGR</div>
+                    <div class="discount-percentage">20%</div>
+                </div>
+                <button class="copy-button" onclick="copyCode('CARGR', this)">Copy Code</button>
                 <div class="install-command">npm i carvertical-coupons-and-promo-codes</div>
                 <div class="links">
                     <a href="https://github.com/vindecoderpro/carvertical-coupons-and-promo-codes" class="link-button github-link" target="_blank">GitHub</a>
@@ -313,6 +397,11 @@
                 <div class="country-name">🇷🇴 Romania</div>
                 <div class="package-name">cod-reducere-carvertical</div>
                 <div class="category">VIN Decoder</div>
+                <div class="discount-info">
+                    <div class="discount-code">VERIFICARE</div>
+                    <div class="discount-percentage">20%</div>
+                </div>
+                <button class="copy-button" onclick="copyCode('VERIFICARE', this)">Copy Code</button>
                 <div class="install-command">npm i cod-reducere-carvertical</div>
                 <div class="links">
                     <a href="https://github.com/vindecoderpro/cod-reducere-carvertical" class="link-button github-link" target="_blank">GitHub</a>
@@ -325,6 +414,11 @@
                 <div class="country-name">🇫🇷 France</div>
                 <div class="package-name">code-promo-carvertical</div>
                 <div class="category">VIN Decoder</div>
+                <div class="discount-info">
+                    <div class="discount-code">VERIFIERVOITURE</div>
+                    <div class="discount-percentage">20%</div>
+                </div>
+                <button class="copy-button" onclick="copyCode('VERIFIERVOITURE', this)">Copy Code</button>
                 <div class="install-command">npm i code-promo-carvertical</div>
                 <div class="links">
                     <a href="https://github.com/vindecoderpro/code-promo-carvertical" class="link-button github-link" target="_blank">GitHub</a>
@@ -337,6 +431,11 @@
                 <div class="country-name">🌍 International</div>
                 <div class="package-name">carvertical-coupon-discount-code</div>
                 <div class="category">VIN Decoder</div>
+                <div class="discount-info">
+                    <div class="discount-code">VINDECODERPRO</div>
+                    <div class="discount-percentage">20%</div>
+                </div>
+                <button class="copy-button" onclick="copyCode('VINDECODERPRO', this)">Copy Code</button>
                 <div class="install-command">npm i carvertical-coupon-discount-code</div>
                 <div class="links">
                     <a href="https://github.com/vindecoderpro/carvertical-coupon-discount-code" class="link-button github-link" target="_blank">GitHub</a>
@@ -349,6 +448,11 @@
                 <div class="country-name">🇨🇿 Czech Republic</div>
                 <div class="package-name">carvertical-slevove-kody</div>
                 <div class="category">VIN Decoder</div>
+                <div class="discount-info">
+                    <div class="discount-code">SLEVA</div>
+                    <div class="discount-percentage">20%</div>
+                </div>
+                <button class="copy-button" onclick="copyCode('SLEVA', this)">Copy Code</button>
                 <div class="install-command">npm i carvertical-slevove-kody</div>
                 <div class="links">
                     <a href="https://github.com/vindecoderpro/carvertical-slevove-kody" class="link-button github-link" target="_blank">GitHub</a>
@@ -361,6 +465,11 @@
                 <div class="country-name">🇱🇹 Lithuania</div>
                 <div class="package-name">carvertical-kupono-kodas</div>
                 <div class="category">VIN Decoder</div>
+                <div class="discount-info">
+                    <div class="discount-code">VINPROLT</div>
+                    <div class="discount-percentage">20%</div>
+                </div>
+                <button class="copy-button" onclick="copyCode('VINPROLT', this)">Copy Code</button>
                 <div class="install-command">npm i carvertical-kupono-kodas</div>
                 <div class="links">
                     <a href="https://github.com/vindecoderpro/carvertical-kupono-kodas" class="link-button github-link" target="_blank">GitHub</a>
@@ -373,6 +482,11 @@
                 <div class="country-name">🇵🇱 Poland</div>
                 <div class="package-name">carvertical-kod-rabatowy</div>
                 <div class="category">VIN Decoder</div>
+                <div class="discount-info">
+                    <div class="discount-code">RABAT</div>
+                    <div class="discount-percentage">30%</div>
+                </div>
+                <button class="copy-button" onclick="copyCode('RABAT', this)">Copy Code</button>
                 <div class="install-command">npm i carvertical-kod-rabatowy</div>
                 <div class="links">
                     <a href="https://github.com/vindecoderpro/carvertical-kod-rabatowy" class="link-button github-link" target="_blank">GitHub</a>
@@ -383,9 +497,26 @@
     </div>
 
     <footer>
-        <p>Created with ❤️ by the <a href="https://github.com/vindecoderpro" target="_blank">VIN Decoder Pro</a> team</p>
-        <p>© 2025 VIN Decoder Pro. All rights reserved.</p>
+        <p>Created with ❤️ by the <a href="https://github.com/vindecoderpro" target="_blank">VinDecoderPro</a> team</p>
+        <p>© 2025 VinDecoderPro. All rights reserved.</p>
     </footer>
+
+    <script>
+        function copyCode(code, button) {
+            navigator.clipboard.writeText(code).then(function() {
+                const originalText = button.textContent;
+                button.textContent = '✓ Copied!';
+                button.classList.add('copied');
+                
+                setTimeout(function() {
+                    button.textContent = originalText;
+                    button.classList.remove('copied');
+                }, 2000);
+            }).catch(function(err) {
+                console.error('Failed to copy:', err);
+            });
+        }
+    </script>
 </body>
 </html>
 
